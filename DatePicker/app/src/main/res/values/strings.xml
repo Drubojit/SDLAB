@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DatePicker</string>
+    <string name="t1">Current Date</string>
+    <string name="t2">Select Date</string>
+</resources>

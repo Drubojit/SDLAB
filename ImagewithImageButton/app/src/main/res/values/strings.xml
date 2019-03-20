@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImagewithImageButton</string>
+    <string name="text">press the button to see the picture</string>
+</resources>

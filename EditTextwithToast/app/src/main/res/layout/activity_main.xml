@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ashcolor"
+    android:orientation="vertical"
+    android:padding="15px"
+    android:layout_margin="10px"
+
+    tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/edittext1"
+    android:layout_width="300dp"
+    android:layout_height="60dp"
+    android:textSize="20sp"
+    android:textStyle="normal"
+    android:hint="@string/hint1"
+    />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:hint="@string/hint2"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:layout_margin="10px">
+        <Button
+            android:id="@+id/addbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:text="ADD"
+            />
+        <Button
+            android:id="@+id/substractbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:text="SUBSTRACT"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+</LinearLayout>

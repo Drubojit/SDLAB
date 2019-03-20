@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="text1">Choose your Department</string>
+    <string name="text2">CSE</string>
+    <string name="text3">EEE</string>
+    <string name="text4">Mechanical</string>
+    <string name="text5">Enter</string>
+
+</resources>
